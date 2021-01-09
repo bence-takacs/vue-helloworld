@@ -1,0 +1,21 @@
+{
+  "name": "vue-20-hello-world",
+  "version": "1.0.0",
+  "description": "The easiest way to try out Vue.js, edit this Hello World example",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "proxy": "lcp --proxyUrl https://xkcd.com --port 8010",
+    "start-with-proxy": "npm-run-all --parallel proxy start"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "author": ""
+}
